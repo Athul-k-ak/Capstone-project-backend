@@ -22,7 +22,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: "https://capstone-project-frontend-alpha.vercel.app/",  // Allow frontend URL
+  origin: "https://capstone-project-frontend-9430lmzk7-athuls-projects-8d145e9f.vercel.app",  // Allow frontend URL
   credentials: true,  // Allow cookies
 }));
 app.use(express.json());
